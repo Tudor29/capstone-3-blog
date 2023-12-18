@@ -1,0 +1,14 @@
+<script>
+    $(document).ready(function() {
+      $('.toggle-content').click(function() {
+        var contentId = $(this).data('bs-target');
+        $(contentId).on('shown.bs.collapse', function () {
+          $(this).next('.toggle-content').text('Read less');
+        });
+        $(contentId).on('hidden.bs.collapse', function () {
+          $(this).next('.toggle-content').text('Read more');
+        });
+      });
+    });
+  </script>
+  

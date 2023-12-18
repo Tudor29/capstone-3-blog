@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(95, 111, 82);
+  color: rgb(254, 250, 224);
+}
+
+.header {
+  background-color: rgb(95, 111, 82);
+  width: 100%;
+}
+
+#footer {
+  background-color: rgb(95, 111, 82);
+  color: rgb(254, 250, 224);
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  background-color: rgb(169, 179, 136);
+}
+
+.post-card {
+  background-color: rgb(254, 250, 224);
+}
